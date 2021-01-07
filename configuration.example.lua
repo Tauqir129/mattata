@@ -16,7 +16,7 @@
 ]]
 
 local configuration = { -- Rename this file to configuration.lua for the bot to work!
-    ['bot_token'] = '', -- In order for the bot to actually work, you MUST insert the Telegram
+    ['bot_token'] = '1419863119:AAGlJw01JNLmyBVsrURMT6088SgGS4OaB-4', -- In order for the bot to actually work, you MUST insert the Telegram
     -- bot API token you received from @BotFather.
     ['connected_message'] = 'Connected to the Telegram bot API!', -- The message to print when the bot is connected to the Telegram bot API
     ['version'] = '1.5', -- the version of mattata, don't change this!
@@ -24,10 +24,7 @@ local configuration = { -- Rename this file to configuration.lua for the bot to 
     -- a Stripe account with @stripe!
     ['stripe_live_token'] = '', -- Payment token you receive from @BotFather.
     ['stripe_test_token'] = '', -- Test payment token you receive from @BotFather.
-    ['admins'] = {  -- Here you need to specify the numerical ID of the users who shall have
-    -- FULL control over the bot, this includes access to server files via the lua and shell plugins.
-        221714512
-    },
+    ['admins'] = {'1144168878'},
     ['allowlist_plugin_exceptions'] = { -- An array of plugins that will still be used for allowlisted users.
         'antispam'
     },
